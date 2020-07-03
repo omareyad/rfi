@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css?family=Almarai&display=swap');
+body , div ,section , footer{
+
+    font-family: 'Almarai', sans-serif;
+
+}
+#logo {
+    display: inline-block;
+    width: 172px;
+    float: right;
+    margin-right: 30px;
+    height: 45px;
+    padding: 0 0 0 15px;
+    margin-top: -16px;
+}
+header#nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: left;
+    display: inline-block;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.02);
+    -backdrop-filter: blur(5px);
+    direction: rtl;
+}
+
+/*mobile nav query  */
+.button {
+    display: inline;
+    position: fixed;
+    left: 50px;
+    top: 6px;
+    z-index: 999;
+    font-size: 25px;
+    text-align: left;
+    right: 0px;
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 300px) {
+
+    .section-1 .row .col-md-6 .panel {
+
+        text-align: right;
+        font-family: 'Almarai', sans-serif;
+    }
+    .button {
+        display: inline;
+        position: fixed;
+        left: 50px;
+        top: 6px;
+        z-index: 999;
+        font-size: 25px;
+        text-align: left;
+        right: 0px;
+    }
+  }
+
+  /* Medium devices (tablets, 768px and up)*/
+  @media (min-width: 768px) {
+    .section-1 .row .col-md-6 .panel {
+
+        text-align: right;
+        font-family: 'Almarai', sans-serif;
+    }
+    .button {
+        display: inline;
+        position: fixed;
+        left: 50px;
+        top: 6px;
+        z-index: 999;
+        text-align: left;
+        font-size: 25px;
+        right: 0px;
+    }
+
+  }
+
+
+
+  /* Large devices (desktops, 992px and up)*/
+  @media (min-width: 1010px) {
+    .section-1 .row .col-md-6 .panel {
+        position: absolute;
+        top: 7vmin;
+        right: -17%;
+        left: 0vmin;
+        background: white;
+        border-radius: 3px;
+        text-align: left;
+        /* padding: 13vmin 5vmin 20vmin 10vmin; */
+        padding: 4vmin 5vmin 4vmin 10vmin;
+        box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
+        font-family: 'Almarai', sans-serif;
+        z-index: 1;
+        text-align: right;
+    }
+  }
+
+  /* Extra large devices (large desktops, 1200px and up)*/
+  @media (min-width: 1200px) {
+    .section-1 .row .col-md-6 .panel {
+        position: absolute;
+        top: 7vmin;
+        right: -17%;
+        left: 0vmin;
+        background: white;
+        border-radius: 3px;
+        text-align: left;
+        /* padding: 13vmin 5vmin 20vmin 10vmin; */
+        padding: 4vmin 5vmin 4vmin 10vmin;
+        box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
+        font-family: 'Almarai', sans-serif;
+        z-index: 1;
+        text-align: right;
+    }
+
+
+  }
+.triangle-4 {
+    width: 0px;
+    margin: 0px;
+    height: 10px;
+    border-bottom: solid 15px rgb(165, 200, 141);
+    border-left: solid 15px transparent;
+    border-right: solid 15px transparent;
+    padding: 1px;
+    margin-inline-start: auto;
+}
+.ArabicSlider{
+    direction: rtl;
+}
+
+.owl-slide-text div{
+    text-align: right;
+    direction: rtl;
+}
+.owl-slide-text h2{
+    text-align: right;
+    direction: rtl;
+}
+.owl-slide-text a{
+   float: right;
+   direction: rtl;
+   text-align: right;
+}
+.header-h2{
+    direction: rtl;
+}
+.down-cirve .box h2 .i-green , .down-cirve .box h2 .i-blue , .down-cirve .box h2 .i-red  {
+
+
+    margin-left: 10px;
+}
+.accounts-s{
+    direction: rtl;
+}
+.footer-menu, .the_content{
+    direction: rtl;
+    text-align: right;
+}
+
+#footer{
+
+    direction: ltr;}
+
+#footer p {
+    direction: rtl;
+    text-align: right;
+}
+.sec-eight-text-area h1 {
+    padding: 0vh 0px 3vh 0px;}
+.fs_desc {
+        font-size: 2em;
+        line-height: 130%;
+        letter-spacing: -1px;
+        font-weight: 200;
+        direction: rtl;
+        text-align: right;
+    }
+    .square-flip h2 , .square-flip h3 ,.bubbly-button{
+        font-family: 'Almarai', sans-serif;
+    }
+.section-1 .container{
+text-align: right;
+direction: rtl;
+    }
+    .caption{
+        direction: rtl;
+
+    }
+    .btnss{
+        padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    }
